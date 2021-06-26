@@ -1,0 +1,15 @@
+.page {
+  margin: 0 auto;
+  /*  По макету граница контента: 1184px + margin: 0 auto + 2 * 48px */
+  max-width: 1184px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  background-color: #2a2c2f;
+  color: #fff;
+  /* Оптимизация шрифтов под устройства с различными разрешениями */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,9 @@
+.lead__illustration-title {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}

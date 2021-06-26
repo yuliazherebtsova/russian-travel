@@ -1,0 +1,5 @@
+.gallery {
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(min-content, max-content));
+}

@@ -19,3 +19,10 @@
   font-family: 'Inter';
   font-weight: bold;
 }
+
+@font-face {
+  src: url('Inter/Inter-Bold.woff2') format('woff2'),
+       url('Inter/Inter-Bold.woff') format('woff');
+  font-family: 'Inter';
+  font-weight: 900;
+}
