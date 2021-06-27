@@ -1,5 +1,6 @@
 .page {
   margin: 0 auto;
+  min-width: 320px;
   /*  По макету граница контента: 1184px + margin: 0 auto + 2 * 48px */
   max-width: 1184px;
   font-family: 'Inter', 'Arial', sans-serif;

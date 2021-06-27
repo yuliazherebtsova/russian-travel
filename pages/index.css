@@ -4,11 +4,13 @@
 
 /* page */
 @import url('../blocks/page/page.css');
-@import url('../blocks/page/__header/page__header.css');
 @import url('../blocks/page/__section/page__section.css');
 @import url('../blocks/page/__section/_narrow/page__section_narrow.css');
 @import url('../blocks/page/__section/_cover/page__section_cover.css');
-@import url('../blocks/page/__footer/page__footer.css');
+@import url('../blocks/page/__section/_place/page__section_place_header.css');
+@import url('../blocks/page/__section/_place/page__section_place_intro.css');
+/* @import url('../blocks/page/__header/page__header.css');
+@import url('../blocks/page/__footer/page__footer.css'); */
 
 /* link */
 @import url('../blocks/link/link.css');
@@ -46,12 +48,31 @@
 @import url('../blocks/lead/__illustration-image/lead__illustration-image.css');
 @import url('../blocks/lead/__illustration-title/lead__illustration-title.css');
 
+/* intro */
+@import url('../blocks/intro/intro.css');
+/* @import url('../blocks/intro/__container/intro__container.css'); */
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__text/intro__text.css');
+@import url('../blocks/intro/__digits/intro__digits.css');
+@import url('../blocks/intro/__span-accent/intro__span-accent.css');
+
 /* gallery */
 @import url('../blocks/gallery/gallery.css');
+@import url('../blocks/gallery/__photo-list/gallery__photo-list.css');
 @import url('../blocks/gallery/__image/gallery__image.css');
 
+/* places */
+@import url('../blocks/places/places.css');
 
-
+/* place */
+@import url('../blocks/place/place.css');
+@import url('../blocks/place/__title/place__title.css');
+@import url('../blocks/place/__image/place__image.css');
+@import url('../blocks/place/__website/place__website.css');
+@import url('../blocks/place/__url-title/place__url-title.css');
+@import url('../blocks/place/__link/place__link.css');
+@import url('../blocks/place/__text/place__text.css');
+@import url('../blocks/place/__paragraph/place__paragraph.css');
 
 /* description */
 @import url('../blocks/description/description.css');

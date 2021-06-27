@@ -1,4 +1,5 @@
-.lead {
+.intro {
   max-width: 984px;
   display: grid;
+  box-sizing: border-box;
 }
