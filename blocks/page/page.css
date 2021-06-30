@@ -13,4 +13,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+
+  /* display: grid;
+  grid-template-rows: repeat(6, 1fr); */
 }

@@ -1,5 +1,4 @@
 .intro {
-  max-width: 984px;
-  display: grid;
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }

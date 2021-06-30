@@ -1,0 +1,11 @@
+.page__section_place_header {
+  padding: 28px 0 56px;
+}
+
+@media (max-width: 1184px) {
+  .page__section_place_header {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+  }
+}
