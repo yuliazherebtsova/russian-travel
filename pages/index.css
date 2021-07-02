@@ -47,7 +47,6 @@
 @import url('../blocks/intro/__span-accent/intro__span-accent.css');
 
 /* gallery */
-@import url('../blocks/gallery/gallery.css');
 @import url('../blocks/gallery/__photo-list/gallery__photo-list.css');
 @import url('../blocks/gallery/__image/gallery__image.css');
 
@@ -72,7 +71,6 @@
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
 
 /* navigation */
-@import url('../blocks/navigation/navigation.css');
 @import url('../blocks/navigation/__list/navigation__list.css');
 @import url('../blocks/navigation/__link/navigation__link.css');
 
