@@ -3,3 +3,16 @@
   grid-column: 2;
   grid-row: 1;
 }
+
+@media (max-width: 767px) {
+  .place__website {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 424px) {
+  .place__website {
+    padding: 0 16px;
+  }
+}

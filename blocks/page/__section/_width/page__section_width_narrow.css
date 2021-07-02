@@ -1,0 +1,4 @@
+.page__section_width_narrow {
+  max-width: 1080px; /* с учетом padding 2*48 */
+}
+

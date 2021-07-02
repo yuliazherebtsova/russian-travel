@@ -2,6 +2,26 @@
     margin: 0;
     padding: 0;
     font-size: 18px;
-    line-height: 29px;
+    line-height: 1.63;
     grid-column: 2;
+  }
+
+  @media (max-width: 1023px) {
+    .place__text {
+      font-size: 16px;
+      line-height: 1.63;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .place__text {
+      grid-column: 1;
+      grid-row: 4;
+    }
+  }
+
+  @media (max-width: 424px) {
+    .place__text {
+      padding: 0 16px;
+    }
   }

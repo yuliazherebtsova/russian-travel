@@ -3,7 +3,22 @@
   margin: 0 0 32px;
   padding: 0;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1.06;
   position: relative;
   /* делаем заголовок выше абсолютно спозиционированного псевдоэлемента ::before */
+}
+
+@media (max-width: 767px) {
+  .cover__title {
+    font-size: 48px;
+    margin-bottom: 16px;
+    line-height: 1.09;
+  }
+}
+
+@media (max-width: 424px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+  }
 }

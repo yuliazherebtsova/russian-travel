@@ -3,3 +3,11 @@
   grid-template-columns: repeat(5, min-content);
   gap: 18px;
 }
+
+@media (max-width: 767px) {
+  .navigation__list {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, min-content);
+    gap: 32px;
+  }
+}

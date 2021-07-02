@@ -5,3 +5,10 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+@media (max-width: 767px) {
+  .header__logo {
+    min-width: 142px;
+    min-height: 42px;
+  }
+}
